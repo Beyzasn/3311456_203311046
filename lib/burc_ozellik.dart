@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/TumOzellikler/erkek.dart';
 import 'package:flutter_application_1/TumOzellikler/genelOzellikler.dart';
 import 'package:flutter_application_1/TumOzellikler/kadin.dart';
+import 'package:flutter_application_1/TumOzellikler/uyumlar.dart';
 import 'package:flutter_application_1/model/burc.dart';
 import 'package:flutter_application_1/strings.dart';
-
 import 'TumOzellikler/askHayati.dart';
 import 'TumOzellikler/isHayati.dart';
 
@@ -42,7 +42,7 @@ class BurcOzellik extends StatelessWidget {
                 child: Column(
                   children: [
                     Card(
-                      color: Color.fromARGB(255, 107, 175, 215),
+                      color: Color.fromARGB(155, 107, 175, 215),
                       elevation: 4,
                       child: ListTile(
                         onTap:()
@@ -62,7 +62,7 @@ class BurcOzellik extends StatelessWidget {
                       
                     ),
                     Card(
-                      color: Color.fromARGB(255, 107, 175, 215),
+                      color: Color.fromARGB(155, 107, 175, 215),
                       elevation: 4,
                       child: ListTile(
                         onTap:()
@@ -83,7 +83,7 @@ class BurcOzellik extends StatelessWidget {
 
                     ),
                     Card(
-                      color: Color.fromARGB(255, 107, 175, 215),
+                      color: Color.fromARGB(155, 107, 175, 215),
                       elevation: 4,
                       child: ListTile(
                         onTap:()
@@ -104,7 +104,7 @@ class BurcOzellik extends StatelessWidget {
 
                     ),
                     Card(
-                      color: Color.fromARGB(255, 107, 175, 215),
+                      color: Color.fromARGB(155, 107, 175, 215),
                       elevation: 4,
                       child: ListTile(
                         onTap:()
@@ -128,7 +128,7 @@ class BurcOzellik extends StatelessWidget {
 
                     ),
                     Card(
-                      color: Color.fromARGB(255, 107, 175, 215),
+                      color: Color.fromARGB(155, 107, 175, 215),
                       elevation: 4,
                       child: ListTile(
                         onTap:()
@@ -137,7 +137,9 @@ class BurcOzellik extends StatelessWidget {
 
                         },
                         leading: Image(
-                          image: AssetImage("images/erkek.png"),
+                          height: 45,
+                          width: 45,
+                          image: AssetImage("images/erkek1.png"),
                           ), 
                         title: Text("ERKEK",
                         style: TextStyle(
@@ -148,6 +150,30 @@ class BurcOzellik extends StatelessWidget {
                         ),
 
                     ),
+                    Card(
+                      color: Color.fromARGB(155, 107, 175, 215),
+                      elevation: 4,
+                      child: ListTile(
+                        onTap:()
+                         {
+                         Navigator.of(context).push(MaterialPageRoute(builder: (context)=>uyumlar(secilenBurc: secilenBurc)));
+
+                        },
+                        leading: Image(
+                          height: 45,
+                          width: 45,
+                          image: AssetImage("images/iliski.png"),
+                          ), 
+                        title: Text("DİĞER BURÇLARLA UYUMU",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontFamily:"Metrophobic" 
+                        ),
+                        ),
+                        ),
+
+                    ),
+                   
                   ],
                 ),
                 

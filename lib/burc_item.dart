@@ -9,7 +9,7 @@ class BurcItem extends StatelessWidget {
   Widget build(BuildContext context) {
     var myTextStyle=Theme.of(context).textTheme;
     return Card(
-      color: Color.fromARGB(255, 107, 175, 215),
+      color: Color.fromARGB(155, 107, 175, 215),
       elevation: 4,
       child: ListTile(
         onTap: () {

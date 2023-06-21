@@ -12,7 +12,7 @@ class ask extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Color.fromARGB(255, 107, 175, 215),
+        color: Color.fromARGB(155, 107, 175, 215),
         child: CustomScrollView(
           
           slivers: [   
@@ -21,7 +21,7 @@ class ask extends StatelessWidget {
               title: Text(secilenBurc.burcAdi+" Burcu Aşk Hayatı"),
               expandedHeight: 10,
               pinned: true,
-              backgroundColor: Color.fromARGB(255, 6, 50, 225),
+              backgroundColor: Color.fromARGB(255, 13, 20, 122),
             ),
             
             SliverToBoxAdapter(
@@ -30,14 +30,11 @@ class ask extends StatelessWidget {
                 
                  child:
                  Padding(
-                   padding: const EdgeInsets.all(25.0),
+                   padding: const EdgeInsets.all(10.0),
                    child: Text(secilenBurc.askHayati,
                    style: TextStyle(
-                   fontFamily: "Metrophobic",
-                   fontSize: 20,
-                   fontWeight: FontWeight.w200,
+                   fontSize: 18,
                    ),
-                   textAlign: TextAlign.left,
                
                    ),
                  ),

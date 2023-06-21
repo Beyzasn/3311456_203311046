@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "497614345243",
+    "project_id": "burclar-d8a0b",
+    "storage_bucket": "burclar-d8a0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497614345243:android:57a4636134a7d4839dd4be",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497614345243-q99fodp3t9g6f63jl3aau8rcfjpj2p4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ476o9dJbnliNWfmAxEauNU7ljstvnwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497614345243-q99fodp3t9g6f63jl3aau8rcfjpj2p4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

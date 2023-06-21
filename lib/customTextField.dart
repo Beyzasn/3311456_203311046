@@ -18,7 +18,7 @@ class _CustomTextInputState extends State<CustomTextInput> {
       width: double.infinity,
       height: 50,
       decoration:const ShapeDecoration(
-      color:Color.fromARGB(82, 151, 161, 173),
+      color:Color.fromARGB(82, 19, 72, 137),
       
         shape: StadiumBorder(),
          ),
@@ -29,7 +29,7 @@ class _CustomTextInputState extends State<CustomTextInput> {
             hintText: widget._hintText,
             hintStyle: TextStyle(
               fontFamily: "Metrophobic",
-              color: Colors.grey,
+              color: Color.fromARGB(82, 0, 21, 255),
             ), 
             contentPadding: const EdgeInsets.only(left: 30),
           ),

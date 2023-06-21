@@ -12,14 +12,14 @@ class isHayati extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 7, 15, 255),
+        backgroundColor: Color.fromARGB(255, 13, 20, 122),
         title: Text(
           
           secilenBurc.burcAdi+" Burcu İş Hayatı"),
         
        ),
       body: Container(
-        color: Color.fromARGB(255, 107, 175, 215),
+        color: Color.fromARGB(155, 107, 175, 215),
 
         child: Column(
           
@@ -30,10 +30,8 @@ class isHayati extends StatelessWidget {
               Text(secilenBurc.isHayati,
               style: TextStyle(
                 fontFamily: "Metrophobic",
-                fontSize: 20,
-                fontWeight: FontWeight.w800,
+                fontSize: 18,
               ),
-              textAlign: TextAlign.justify,
               ),
               
               
